@@ -3,69 +3,69 @@
     {
       "numero": "1",
       "carta": "As",
-      "valor": "0"
+      "cantidad": "0"
     },
     {
       "numero": "2",
-      "carta": "1",
-      "valor": "0"
+      "carta": "Dos de diamantes",
+      "cantidad": "0"
     },
     {
       "numero": "3",
-      "carta": "2",
-      "valor": "0"
+      "carta": "Tres de corazones",
+      "cantidad": "0"
     },
     {
       "numero": "4",
-      "carta": "3",
-      "valor": "0"
+      "carta": "Cuatro de corazones",
+      "cantidad": "0"
     },
     {
       "numero": "5",
-      "carta": "4",
-      "valor": "0"
+      "carta": "Cinco de corazones",
+      "cantidad": "0"
     }
     ,
     {
       "numero": "6",
-      "carta": "5",
-      "valor": "0"
+      "carta": "Seis de treboles",
+      "cantidad": "0"
     },
     {
       "numero": "7",
-      "carta": "6",
-      "valor": "0"
+      "carta": "Siete de diamantes",
+      "cantidad": "0"
     },
     {
       "numero": "8",
-      "carta": "7",
-      "valor": "0"
+      "carta": "Ocho de treboles",
+      "cantidad": "0"
     },
     {
       "numero": "9",
-      "carta": "8",
-      "valor": "0"
+      "carta": "Nueve de diamantes",
+      "cantidad": "0"
     },
     {
       "numero": "10",
-      "carta": "9",
-      "valor": "0"
+      "carta": "Dies de corazones",
+      "cantidad": "0"
     },
     {
       "numero": "11",
-      "carta": "10",
-      "valor": "0"
+      "carta": "Joker",
+      "cantidad": "0"
     }
     ,
     {
       "numero": "12",
-      "carta": "11",
-      "valor": "0"
+      "carta": "Queen",
+      "cantidad": "0"
     },
     {
       "numero": "13",
-      "carta": "12",
-      "valor": "0"
+      "carta": "King",
+      "cantidad": "0"
     }
   ]
 }

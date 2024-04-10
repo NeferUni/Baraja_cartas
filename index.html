@@ -1,72 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <title>Inicio</title>
-  </head>
-  <body>
-    <header>
-      <div class="imagen">
-        <img src="sources/img/Detalles/showdown2.jpg" alt="" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css" />
+  <title>Inicio</title>
+  <style>
+    .table {
+      margin-top: 20px;
+    }
+    .table th, .table td {
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="imagen">
+      <img src="sources/img/Detalles/showdown2.jpg" alt="" />
+    </div>
+  </header>
+  <article>
+    <div class="contenedor">
+      <div class="contenedor_cartas">
+        <button data-numero="1"><img src="sources/img/Cartas/1.png" alt="" /></button>
+        <button data-numero="2"><img src="sources/img/Cartas/2.png" alt="" /></button>
+        <button data-numero="3"><img src="sources/img/Cartas/3.png" alt="" /></button>
+        <button data-numero="4"><img src="sources/img/Cartas/4.png" alt="" /></button>
+        <button data-numero="5"><img src="sources/img/Cartas/5.png" alt="" /></button>
+        <button data-numero="6"><img src="sources/img/Cartas/6.png" alt="" /></button>
+        <button data-numero="6"><img src="sources/img/Cartas/7.png" alt="" /></button>
+        <button data-numero="8"><img src="sources/img/Cartas/8.png" alt="" /></button>
+        <button data-numero="9"><img src="sources/img/Cartas/9.png" alt="" /></button>
+        <button data-numero="10"><img src="sources/img/Cartas/10.png" alt="" /></button>
+        <button data-numero="11"><img src="sources/img/Cartas/11.png" alt="" /></button>
+        <button data-numero="12"><img src="sources/img/Cartas/12.png" alt="" /></button>
+        <button data-numero="13"><img src="sources/img/Cartas/13.png" alt="" /></button>
       </div>
-    </header>
-    <article>
-      <div class="contenedor">
-        <div class="contenedor_cartas">
-          <button><img src="sources/img/Cartas/1.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/2.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/3.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/4.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/5.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/6.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/8.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/9.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/10.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/11.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/12.png" alt="" /></button>
-          <button><img src="sources/img/Cartas/13.png" alt="" /></button>
-          
-        </div>
-        <div class="datos">
-          <div class="table">
-            <table>
+      <div class="datos">
+        <div class="table">
+          <table id="dataTable">
+            <thead>
               <tr>
                 <th>Numero</th>
                 <th>Carta</th>
                 <th>Cantidad</th>
               </tr>
-              <tr>
-               
-              </tr>
-              <tr>
-               
-              </tr>
-              <tr>
-               
-                
-              </tr>
-            </table>
-          </div>
-          <div class="registro">
-            <form action="guardar">
-              <h1>Registro cartas</h1>
-              <input
-                type="text"
-                name="numero_carta"
-                placeholder="Número de Carta"
-                required
-              />
-              <input type="text" name="carta" placeholder="Carta" required />
-              <button class="submit" type="submit">Guardar</button>
-            </form>
-          </div>
+            </thead>
+            <tbody>
+              <!-- Aquí se insertarán las filas de la tabla -->
+            </tbody>
+          </table>
+        </div>
+        <div class="registro">
+          <form id="dataForm">
+            <h1>Registro cartas</h1>
+            <input type="text" name="numero_carta" placeholder="Número de Carta" required />
+            <input type="text" name="carta" placeholder="Carta" required />
+            <button class="submit" type="submit">Guardar</button>
+          </form>
         </div>
       </div>
-    </article>
-    <script>
-      //TODO: para que funcione
-    </script>
-  </body>
+    </div>
+  </article>
+  <script src="js/main.js"></script>
+</body>
 </html>
