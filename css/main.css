@@ -61,15 +61,16 @@ img {
     font-size: 16px;
 }
 
-.registro form button {
+.registro form .submit {
     background-color: #ff5858;
     color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    border-radius: 0%;
 }
 
-.registro form button:hover {
+.registro form .submit:hover {
     background-color: #ff1010;
 }
 
@@ -78,8 +79,26 @@ img {
     background-color: #f4f4f4;
 }
 
+button{
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: 15%;
+    padding: 8px;
+}
+
+button:hover{
+    background-color: #ccc;
+}
+
 @media screen and (max-width: 768px) {
     .contenedor_cartas img {
+        width: 100%;
+    }
+
+    button{
         width: 45%;
     }
 

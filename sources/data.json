@@ -1,7 +1,71 @@
-[
-    {"numero": "1", "carta": "As"},
-    {"numero": "2", "carta": "1"},
-    {"numero": "3", "carta": "2"},
-    {"numero": "4", "carta": "3"},
-    {"numero": "5", "carta": "4"}
-]
+{
+  "data": [
+    {
+      "numero": "1",
+      "carta": "As",
+      "valor": "0"
+    },
+    {
+      "numero": "2",
+      "carta": "1",
+      "valor": "0"
+    },
+    {
+      "numero": "3",
+      "carta": "2",
+      "valor": "0"
+    },
+    {
+      "numero": "4",
+      "carta": "3",
+      "valor": "0"
+    },
+    {
+      "numero": "5",
+      "carta": "4",
+      "valor": "0"
+    }
+    ,
+    {
+      "numero": "6",
+      "carta": "5",
+      "valor": "0"
+    },
+    {
+      "numero": "7",
+      "carta": "6",
+      "valor": "0"
+    },
+    {
+      "numero": "8",
+      "carta": "7",
+      "valor": "0"
+    },
+    {
+      "numero": "9",
+      "carta": "8",
+      "valor": "0"
+    },
+    {
+      "numero": "10",
+      "carta": "9",
+      "valor": "0"
+    },
+    {
+      "numero": "11",
+      "carta": "10",
+      "valor": "0"
+    }
+    ,
+    {
+      "numero": "12",
+      "carta": "11",
+      "valor": "0"
+    },
+    {
+      "numero": "13",
+      "carta": "12",
+      "valor": "0"
+    }
+  ]
+}
