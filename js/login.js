@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
     localStorage.setItem('username', username);
     localStorage.setItem('password', password);
 
-    if(username == "admin" && password == "1234") window.location.href = 'index.html';
+    if(username == "admin" && password == "1234") window.location.href = 'main.html';
     else alert("Datos incorrectos");
     
 });
