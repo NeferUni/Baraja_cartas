@@ -1,3 +1,3 @@
 #ejercicio baraja de cartas 
 
-#Nefer Sneyder ROjas Porras - 1152307
+#Nefer Sneyder Rojas Porras - 1152307
